@@ -53,7 +53,7 @@ public class MakeMyTrip {
 		driver.findElement(By.xpath("//li[@data-cy=\"travelClass-2\"]")).click();
 		driver.findElement(By.xpath("//button[@data-cy=\"travellerApplyBtn\"]")).click();
 		driver.findElement(By.xpath("//p[@data-cy=\"submit\"]")).click();
-		//driver.close();
+		driver.close();
 		
 	}	
 }
